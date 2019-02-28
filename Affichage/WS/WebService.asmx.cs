@@ -34,7 +34,7 @@ namespace WS
         [WebMethod]
         public DataTable LoadData(string query, string[] parametre, object[] valeurs, string table)
         {
-            // query = stable sql
+            // query = requête sql
             // parametre = null
             // valeurs = null
             // table = nom de la table
