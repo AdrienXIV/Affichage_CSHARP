@@ -34,16 +34,21 @@ namespace WS
         [WebMethod]
         public DataTable LoadData(string query, string[] parametre, object[] valeurs, string table)
         {
-            connexion.Open();
-            var cmd = new MySqlCommand(query, connexion);
+            // query = stable sql
+            // parametre = null
+            // valeurs = null
+            // table = nom de la table
+
+            connexion.Open(); // ouverture de la connexion
+            var cmd = new MySqlCommand(query, connexion); // envoie d'une commande sql à la base de données
             if (parametre != null)
                 for (var i = 0; i < parametre.Length; i++)
                     cmd.Parameters.AddWithValue(parametre[i], valeurs[i]);
-            var dr = cmd.ExecuteReader();
-            var dt = new DataTable(table);
-            dt.Load(dr);
-            connexion.Close();
-            return dt;
+            dr = cmd.ExecuteReader(); // lecture dans la base de données
+            var dt = new DataTable(table); 
+            dt.Load(dr); // remplit la table avec les valeurs de la base de données
+            connexion.Close(); // fermeture de la connexion
+            return dt; // retourne les lignes de la base de données
 
         }
     }
