@@ -63,9 +63,39 @@ namespace Affichage.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap balise {
+            get {
+                object obj = ResourceManager.GetObject("balise", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Bienvenue {
             get {
                 object obj = ResourceManager.GetObject("Bienvenue", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cercle {
+            get {
+                object obj = ResourceManager.GetObject("cercle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap plan1 {
+            get {
+                object obj = ResourceManager.GetObject("plan1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

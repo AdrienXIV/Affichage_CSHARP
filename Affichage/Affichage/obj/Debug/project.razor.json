@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Users\\adri_\\Documents\\BTS SNIR 2e année\\Projet\\Projet\\Code\\Affichage C#\\Affichage\\Affichage\\Affichage.csproj",
+  "TargetFramework": "v4.5.2",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}

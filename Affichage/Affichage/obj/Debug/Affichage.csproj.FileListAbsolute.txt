@@ -1,26 +1,35 @@
-C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\bin\Debug\Affichage.exe.config
 C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\bin\Debug\Affichage.exe
-C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\bin\Debug\Affichage.pdb
+C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\bin\Debug\Affichage.exe.config
 C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\bin\Debug\MySql.Data.DLL
-C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\obj\Debug\Affichage.csprojResolveAssemblyReference.cache
-C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\obj\Debug\Affichage.FormMain.resources
+C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\bin\Debug\Newtonsoft.Json.dll
+C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\bin\Debug\Newtonsoft.Json.xml
+C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\obj\Debug\Affichage.AffichageVetetiste.resources
+C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\obj\Debug\Affichage.Carte.resources
+C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\obj\Debug\Affichage.Presentation.resources
 C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\obj\Debug\Affichage.Properties.Resources.resources
+C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\obj\Debug\Affichage.TestAffichage.resources
 C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\obj\Debug\Affichage.csproj.GenerateResource.Cache
 C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\obj\Debug\Affichage.exe
 C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\obj\Debug\Affichage.pdb
-C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\bin\Debug\ApplicationInsights.config
-C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\bin\Debug\roslyn\csc.exe
-C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\bin\Debug\roslyn\System.Collections.Immutable.dll
-C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\bin\Debug\roslyn\System.Reflection.Metadata.dll
-C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\bin\Debug\roslyn\vbc.exe
-C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\bin\Debug\roslyn\VBCSCompiler.exe
-C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\bin\Debug\roslyn\VBCSCompiler.exe.config
-C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\bin\Debug\WS.dll
-C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\bin\Debug\WS.pdb
-C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\obj\Debug\Affichage.Presentation.resources
+C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\bin\Debug\Affichage.pdb
+C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\obj\Debug\Affichage.csprojAssemblyReference.cache
+C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\obj\Debug\Affichage.csproj.CoreCompileInputs.cache
+C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\Affichage C#\Affichage\Affichage\obj\Debug\Affichage.csproj.CopyComplete
+C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\En Cours\Affichage C#\Affichage\Affichage\bin\Debug\Affichage.exe.config
+C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\En Cours\Affichage C#\Affichage\Affichage\obj\Debug\Affichage.exe
+C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\En Cours\Affichage C#\Affichage\Affichage\obj\Debug\Affichage.pdb
+C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\En Cours\Affichage C#\Affichage\Affichage\bin\Debug\Affichage.exe
+C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\En Cours\Affichage C#\Affichage\Affichage\bin\Debug\Affichage.pdb
+C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\En Cours\Affichage C#\Affichage\Affichage\bin\Debug\MySql.Data.dll
+C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\En Cours\Affichage C#\Affichage\Affichage\bin\Debug\Newtonsoft.Json.dll
+C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\En Cours\Affichage C#\Affichage\Affichage\bin\Debug\MySql.Data.xml
+C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\En Cours\Affichage C#\Affichage\Affichage\bin\Debug\Newtonsoft.Json.xml
+C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\En Cours\Affichage C#\Affichage\Affichage\obj\Debug\Affichage.Carte.resources
+C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\En Cours\Affichage C#\Affichage\Affichage\obj\Debug\Affichage.Presentation.resources
+C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\En Cours\Affichage C#\Affichage\Affichage\obj\Debug\Affichage.Properties.Resources.resources
+C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\En Cours\Affichage C#\Affichage\Affichage\obj\Debug\Affichage.csproj.GenerateResource.cache
+C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\En Cours\Affichage C#\Affichage\Affichage\obj\Debug\Affichage.ResultatPerso.resources
+C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\En Cours\Affichage C#\Affichage\Affichage\obj\Debug\Affichage.Resultat.resources
+C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\En Cours\Affichage C#\Affichage\Affichage\obj\Debug\Affichage.csprojAssemblyReference.cache
+C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\En Cours\Affichage C#\Affichage\Affichage\obj\Debug\Affichage.csproj.CoreCompileInputs.cache
+C:\Users\adri_\Documents\BTS SNIR 2e année\Projet\Projet\Code\En Cours\Affichage C#\Affichage\Affichage\obj\Debug\Affichage.csproj.CopyComplete

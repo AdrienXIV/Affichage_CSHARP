@@ -37,9 +37,17 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\..\C#\Affichage\MySql.Data.DLL</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -51,12 +59,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormMain.cs">
+    <Compile Include="ResultatPerso.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormMain.Designer.cs">
-      <DependentUpon>FormMain.cs</DependentUpon>
+    <Compile Include="ResultatPerso.Designer.cs">
+      <DependentUpon>ResultatPerso.cs</DependentUpon>
     </Compile>
+    <Compile Include="Carte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Carte.Designer.cs">
+      <DependentUpon>Carte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CInfoVetetiste.cs" />
     <Compile Include="Presentation.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,8 +80,22 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormMain.resx">
-      <DependentUpon>FormMain.cs</DependentUpon>
+    <Compile Include="Service References\ServiceReference2\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Resultat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resultat.Designer.cs">
+      <DependentUpon>Resultat.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ResultatPerso.resx">
+      <DependentUpon>ResultatPerso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Carte.resx">
+      <DependentUpon>Carte.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentation.resx">
       <DependentUpon>Presentation.cs</DependentUpon>
@@ -81,6 +110,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Resultat.resx">
+      <DependentUpon>Resultat.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\CInfoVetetiste.datasource" />
+    <None Include="Properties\DataSources\FormMain.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -90,18 +125,52 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Service References\ServiceReference2\Service1.wsdl" />
+    <None Include="Service References\ServiceReference2\Service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference2\Service11.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference2\Service12.xsd">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WS\WS.csproj">
-      <Project>{5861D8DE-3A96-46CD-897C-94002CE3E05C}</Project>
-      <Name>WS</Name>
-    </ProjectReference>
+    <None Include="Resources\Bienvenue.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Bienvenue.jpg" />
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ServiceReference2\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference2\Service1.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference2\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference2\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference2\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plan1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\balise.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cercle.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

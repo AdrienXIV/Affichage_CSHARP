@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" dslVersion="1.0.0.0" Id="6b9e6606-6cdb-4765-9e96-948b6468885c" name="TestAffichage_DownloadLibraryAsync" mode="DotNet" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="b5ed45f6-9819-4632-82e0-33e296419146" name="TestAffichage_DownloadLibraryAsync" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification Id="7eabe853-0bec-4b50-a9ee-8f1feb0a6240" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="b630f2e5-2a92-4946-9da5-bfe3950541c6" LastKnownName="TestAffichage" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="a56d980b-1fe7-420f-8cb1-1bbefc0021de" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="0b03680f-d929-4515-9703-c67231015a47" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="b3dc3765-ed40-4db0-8786-9872ce6bf2ae" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="70d42706-30e9-4d69-ad27-c23a8e011a36" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="0b03680f-d929-4515-9703-c67231015a47" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="74c54b13-e41a-488c-9bd5-c76f5480246b" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="b630f2e5-2a92-4946-9da5-bfe3950541c6" LastKnownName="TestAffichage" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <lostFoundTarget Id="8182191e-d118-4348-9de9-adc382f6ee11" name="LostFoundTarget" />
+          <messageOccurrenceSpecification Id="b3dc3765-ed40-4db0-8786-9872ce6bf2ae" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="b630f2e5-2a92-4946-9da5-bfe3950541c6" LastKnownName="TestAffichage" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="70d42706-30e9-4d69-ad27-c23a8e011a36" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="b630f2e5-2a92-4946-9da5-bfe3950541c6" LastKnownName="TestAffichage" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <lostFoundTarget Id="a44cd881-ee27-4183-ad41-b4176dd3a6f9" name="LostFoundTarget" />
+          <executionOccurrenceSpecification Id="a56d980b-1fe7-420f-8cb1-1bbefc0021de" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="f3f4c7dc-cdd1-43b4-b597-01598e876ecd" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="b630f2e5-2a92-4946-9da5-bfe3950541c6" LastKnownName="TestAffichage" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline Id="b630f2e5-2a92-4946-9da5-bfe3950541c6" name="TestAffichage" isActor="false" lifelineDisplayName="TestAffichage" referencedType="Affichage‎.TestAffichage">
+            <referencesInternal>
+              <reference Id="72998c9e-d003-4bf2-aab6-2d684c6981e0" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=Affichage)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(PersonalUri)/BTS SNIR 2e année/Projet/Projet/Code/En Cours/Affichage C%2523/Affichage/Affichage/bin/Debug/Affichage.exe&amp;quot; Namespace=Affichage Type=TestAffichage)&quot;)" tag="DGQL" />
+              <reference Id="65cfcc7b-18b0-4f27-a9ef-a859eaab7efd" handle="(Assembly=&quot;$(PersonalUri)/BTS SNIR 2e année/Projet/Projet/Code/En Cours/Affichage C%2523/Affichage/Affichage/bin/Debug/Affichage.exe&quot; Namespace=Affichage Type=TestAffichage)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="0b03680f-d929-4515-9703-c67231015a47" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="a56d980b-1fe7-420f-8cb1-1bbefc0021de" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message Id="b4867aed-cddc-4460-b688-47e2bc214698" name="DownloadLibraryAsync" messageKind="Found" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="9d477ed0-958c-4d8e-bc28-70cf062a474e" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=Affichage)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(PersonalUri)/BTS SNIR 2e année/Projet/Projet/Code/En Cours/Affichage C%2523/Affichage/Affichage/bin/Debug/Affichage.exe&amp;quot; Namespace=Affichage Type=TestAffichage)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(PersonalUri)/BTS SNIR 2e année/Projet/Projet/Code/En Cours/Affichage C%2523/Affichage/Affichage/bin/Debug/Affichage.exe&amp;quot; Namespace=Affichage Type=TestAffichage Member=DownloadLibraryAsync)&quot;)" tag="DGQL" />
+              <reference Id="4b1c7c57-14c5-4ab1-ac55-c1b68d4a8252" handle="(Assembly=&quot;$(PersonalUri)/BTS SNIR 2e année/Projet/Projet/Code/En Cours/Affichage C%2523/Affichage/Affichage/bin/Debug/Affichage.exe&quot; Namespace=Affichage Type=TestAffichage Member=DownloadLibraryAsync)" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <lostFoundTargetMoniker Id="8182191e-d118-4348-9de9-adc382f6ee11" LastKnownName="LostFoundTarget" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="b3dc3765-ed40-4db0-8786-9872ce6bf2ae" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="fff19c22-832a-4bad-b2c8-45acbf857afa" name="Return" messageKind="Lost" messageSort="AsynchCall" createSelfMessage="false" signatureText="return await content.ReadAsStringAsync()">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="70d42706-30e9-4d69-ad27-c23a8e011a36" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <lostFoundTargetMoniker Id="a44cd881-ee27-4183-ad41-b4176dd3a6f9" LastKnownName="LostFoundTarget" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="74c54b13-e41a-488c-9bd5-c76f5480246b" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="f3f4c7dc-cdd1-43b4-b597-01598e876ecd" name="ExecutionEvent" />
+    </packageHasNamedElement>
+  </packagedElements>
+</SequenceDesignerModel>
